@@ -1,0 +1,20 @@
+@Sprite1 {
+	:x: 0
+	:y: 0
+	:size: 100
+	:direction: 90
+	:show: true
+	:costume: "costume1"
+}
+
+when (flag) clicked {
+	move 15 steps
+	repeat 10 {
+		say foo for 2 seconds
+		change foo by 1
+	}
+}
+
+when (key_space) clicked {
+	turn 15 degrees
+}

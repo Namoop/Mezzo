@@ -1,0 +1,6 @@
+result.ast
+parser.ts
+old
+dist
+.vscode
+compiled.json

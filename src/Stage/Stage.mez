@@ -1,0 +1,8 @@
+@Stage {
+	:backdrop: "backdrop1"
+	foo: 1
+}
+
+when (key_space) clicked {
+	turn 15 degrees
+}

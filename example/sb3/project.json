@@ -1,0 +1,208 @@
+{
+	"targets": [
+		{
+			"isStage": true,
+			"name": "Stage",
+			"variables": { "`jEk@4|i[#Fk?(8x)AV.-my variable": ["foo", 7] },
+			"lists": {},
+			"broadcasts": {},
+			"blocks": {},
+			"comments": {},
+			"currentCostume": 0,
+			"costumes": [
+				{
+					"assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+					"name": "backdrop1",
+					"md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+					"dataFormat": "svg",
+					"rotationCenterX": 240,
+					"rotationCenterY": 180
+				}
+			],
+			"sounds": [
+				{
+					"assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+					"name": "pop",
+					"dataFormat": "wav",
+					"format": "",
+					"rate": 44100,
+					"sampleCount": 1032,
+					"md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+				}
+			],
+			"volume": 100,
+			"layerOrder": 0,
+			"tempo": 60,
+			"videoTransparency": 50,
+			"videoState": "on",
+			"textToSpeechLanguage": null
+		},
+		{
+			"isStage": false,
+			"name": "Sprite1",
+			"variables": {},
+			"lists": {},
+			"broadcasts": {},
+			"blocks": {
+				"cQC87@%.[_ul!A*xb,fd": {
+					"opcode": "event_whenflagclicked",
+					"next": "^H_QY_N-%swTZ?/=(pbi",
+					"parent": null,
+					"inputs": {},
+					"fields": {},
+					"shadow": false,
+					"topLevel": true,
+					"x": 806,
+					"y": 175
+				},
+				"^H_QY_N-%swTZ?/=(pbi": {
+					"opcode": "motion_movesteps",
+					"next": "LNe}JRQg?Ml=@CcUt[IQ",
+					"parent": "cQC87@%.[_ul!A*xb,fd",
+					"inputs": { "STEPS": [1, [4, "15"]] },
+					"fields": {},
+					"shadow": false,
+					"topLevel": false
+				},
+				"%Act?-jiuKGt`(g2Ff%u": {
+					"opcode": "event_whenkeypressed",
+					"next": "%7*8BG}Pt]1x,oMy%+3*",
+					"parent": null,
+					"inputs": {},
+					"fields": { "KEY_OPTION": ["space", null] },
+					"shadow": false,
+					"topLevel": true,
+					"x": 993,
+					"y": 183
+				},
+				"%7*8BG}Pt]1x,oMy%+3*": {
+					"opcode": "motion_turnright",
+					"next": null,
+					"parent": "%Act?-jiuKGt`(g2Ff%u",
+					"inputs": { "DEGREES": [1, [4, "15"]] },
+					"fields": {},
+					"shadow": false,
+					"topLevel": false
+				},
+				"LNe}JRQg?Ml=@CcUt[IQ": {
+					"opcode": "control_repeat",
+					"next": null,
+					"parent": "^H_QY_N-%swTZ?/=(pbi",
+					"inputs": {
+						"TIMES": [1, [6, "10"]],
+						"SUBSTACK": [2, "HLr.i:Y4CC1mVe7OJS1a"]
+					},
+					"fields": {},
+					"shadow": false,
+					"topLevel": false
+				},
+				"o;{+$M]ADyjuiE$8V@~1": {
+					"opcode": "data_changevariableby",
+					"next": null,
+					"parent": "HLr.i:Y4CC1mVe7OJS1a",
+					"inputs": { "VALUE": [1, [4, "1"]] },
+					"fields": {
+						"VARIABLE": ["foo", "`jEk@4|i[#Fk?(8x)AV.-my variable"]
+					},
+					"shadow": false,
+					"topLevel": false
+				},
+				"HLr.i:Y4CC1mVe7OJS1a": {
+					"opcode": "looks_sayforsecs",
+					"next": "o;{+$M]ADyjuiE$8V@~1",
+					"parent": "LNe}JRQg?Ml=@CcUt[IQ",
+					"inputs": {
+						"MESSAGE": [
+							3,
+							[12, "foo", "`jEk@4|i[#Fk?(8x)AV.-my variable"],
+							[10, "Hello!"]
+						],
+						"SECS": [1, [4, "2"]]
+					},
+					"fields": {},
+					"shadow": false,
+					"topLevel": false
+				},
+				"7tX,keh#ZwY+XsfzuJvS": {
+					"opcode": "data_setvariableto",
+					"next": null,
+					"parent": null,
+					"inputs": { "VALUE": [1, [10, "1"]] },
+					"fields": {
+						"VARIABLE": ["foo", "`jEk@4|i[#Fk?(8x)AV.-my variable"]
+					},
+					"shadow": false,
+					"topLevel": true,
+					"x": 1266,
+					"y": 184
+				}
+			},
+			"comments": {},
+			"currentCostume": 0,
+			"costumes": [
+				{
+					"assetId": "bcf454acf82e4504149f7ffe07081dbc",
+					"name": "costume1",
+					"bitmapResolution": 1,
+					"md5ext": "bcf454acf82e4504149f7ffe07081dbc.svg",
+					"dataFormat": "svg",
+					"rotationCenterX": 48,
+					"rotationCenterY": 50
+				},
+				{
+					"assetId": "0fb9be3e8397c983338cb71dc84d0b25",
+					"name": "costume2",
+					"bitmapResolution": 1,
+					"md5ext": "0fb9be3e8397c983338cb71dc84d0b25.svg",
+					"dataFormat": "svg",
+					"rotationCenterX": 46,
+					"rotationCenterY": 53
+				}
+			],
+			"sounds": [
+				{
+					"assetId": "83c36d806dc92327b9e7049a565c6bff",
+					"name": "Meow",
+					"dataFormat": "wav",
+					"format": "",
+					"rate": 44100,
+					"sampleCount": 37376,
+					"md5ext": "83c36d806dc92327b9e7049a565c6bff.wav"
+				}
+			],
+			"volume": 100,
+			"layerOrder": 1,
+			"visible": true,
+			"x": 0,
+			"y": 0,
+			"size": 100,
+			"direction": 89.98772151506532,
+			"draggable": false,
+			"rotationStyle": "all around"
+		}
+	],
+	"monitors": [
+		{
+			"id": "`jEk@4|i[#Fk?(8x)AV.-my variable",
+			"mode": "default",
+			"opcode": "data_variable",
+			"params": { "VARIABLE": "foo" },
+			"spriteName": null,
+			"value": 0,
+			"width": 0,
+			"height": 0,
+			"x": 5,
+			"y": 5,
+			"visible": false,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true
+		}
+	],
+	"extensions": [],
+	"meta": {
+		"semver": "3.0.0",
+		"vm": "0.2.0-prerelease.20220308092939",
+		"agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.38"
+	}
+}
